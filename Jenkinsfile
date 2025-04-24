@@ -64,19 +64,19 @@ pipeline {
         }
     }
     // Post-build actions (optional)
-    post {
-        always {
-            //  Clean up the workspace (optional, but recommended)
-            cleanWs()
-        }
-        //If the build was successful
-        success {
-           echo "SUCCESS"
-        }
-        // If the build fails
-        failure {
-            echo "FAILED"
-        }
-    }
+//     post {
+//         always {
+//             //  Clean up the workspace (optional, but recommended)
+//             cleanWs()
+//         }
+//         //If the build was successful
+//         success {
+//            echo "SUCCESS"
+//         }
+//         // If the build fails
+//         failure {
+//             echo "FAILED"
+//         }
+//     }
 }
 
